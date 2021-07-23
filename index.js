@@ -24,8 +24,7 @@ app.use(session({
   }),
   secret: SESSION_SECRET,
   cookie: {
-    // maxAge: 1000 * 60 * 60 * 24 * 7,
-    maxAge: 1000 * 60, // 1 minute
+    maxAge: 1000 * 60 * 60 * 24,
     resave: false,
     saveUninitialized: false,
     secure: false,
