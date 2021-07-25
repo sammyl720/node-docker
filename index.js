@@ -61,7 +61,7 @@ connectWithRetry()
 const PORT = process.env.PORT || 3000;
 
 app.get('/api/v1', (req, res) => {
-  res.send('<h2>Hi There<h2>');
+  res.send('<h2>Hi There!<h2>');
   console.log('GET /api/v1');
 });
 
